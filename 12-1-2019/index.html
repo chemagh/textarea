@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <button onclick="bold()">Bold </button>
+    <button onclick="italic()">italic</button>
+    <button onclick="underline()">underline</button>
+    <form>
+    <select id="Size" onchange="changesize()">
+       
+        <option value="6"> 6</option>
+        <option value="8">8</option>
+        <option  value="12">12</option>
+        <option value="20">20</option>
+    </select>
+</form>
+    <select id="font" onchange="changefont()">
+        <option value="texttype"> text type</option>
+        <option value="arial">arial</option>
+        <option value="times">times</option>
+        <option value="valencia">valencia</option>
+    </select>
+    <textarea id="para"> Merci les gars </textarea>
+    <script src="js/main.js"></script>
+</body>
+</html>
